@@ -1,0 +1,20 @@
+:root {
+  --base: 330;
+  --hover:hsl(var(--base), 80%, 75%);
+  --bg: hsl(var(--base), 90%, 90%);
+}
+.moods {
+  display: flex;
+}
+.mood {
+  font-size: 3em;
+  background-color: var(--bg);
+  border: 2px solid var(--hover);
+  padding: 0.5em;
+  margin: 0.2em;
+}
+
+.mood:hover {
+  background-color: var(--hover);
+  border: 2px solid var(--bg);
+}
