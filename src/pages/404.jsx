@@ -7,7 +7,7 @@ export default function notFoundPage() {
 
     <div className="container mx-auto max-w-screen-md p-4">
     <h2>Nobody found anything here!</h2>
-    <a href="/"> Go back home </a>
+    <a href="/"> &lt;- Go back home </a>
     </div>
     </Layout>
   )

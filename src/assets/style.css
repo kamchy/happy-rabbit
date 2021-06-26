@@ -7,7 +7,7 @@
   display: flex;
 }
 .mood {
-  font-size: 3em;
+  font-size: 1.3em;
   background-color: var(--bg);
   border: 2px solid var(--hover);
   padding: 0.5em;

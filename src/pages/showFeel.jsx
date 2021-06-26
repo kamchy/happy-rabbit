@@ -32,7 +32,7 @@ export default async function homePage(req, params) {
     <Layout>
     <div className="container mx-auto max-w-screen-md p-4">
       <div className="text-3xl" > You feel {params.feel} </div>
-      <a href="/">Back home</a>
+      <a href="/"> &lt;- Back home</a>
     </div>
     
     <div className="container mx-auto max-w-screen-md p-4">
